@@ -15,8 +15,8 @@ module StringCalculator
     sum = 0
     arr = x.split
     arr.each do |i|
-      if 
-        i.to_i > 1000  
+      if i.to_i > 1000  
+        
       else
         sum += i.to_i
       end
@@ -31,8 +31,7 @@ module StringCalculator
       arr = string.split
       arr.each do |i|
         if i.to_i < 0
-          
-          raise "Negatives not allowed"
+           raise "Negatives not allowed"
         else
           sum += i.to_i
         end
